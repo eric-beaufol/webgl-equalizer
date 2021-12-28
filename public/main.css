@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+#webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+.controls {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+
+.controls button {
+  background: transparent;
+  -webkit-appearance: none;
+  padding: .2em 1em;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.controls button.active {
+  background: white;
+  color: rgb(255, 0, 149);
+}
+
+#music {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  user-select: none;
+  outline: none;
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map*/
